@@ -1,0 +1,65 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(180deg, #fafafa 50%, #efefef 50%);
+}
+
+.Title {
+  margin-left: 50px;
+  font-size: 1.5em;
+}
+
+.HomeName {
+  font-weight: 400;
+}
+
+.TitleTextAnimation:before {
+  content: "";
+  font-weight: 300;
+  animation: animated infinite 8s;
+}
+
+@keyframes animated {
+  0% {
+    content: "a gym lover 💪";
+  }
+  40% {
+    content: "an amateur cook 👩‍🍳";
+  }
+  66% {
+    content: "beginner skier ⛷️";
+  }
+  100% {
+    content: "former folklore dancer 🎼 ";
+  }
+}
+
+.ScrollArrow {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  font-size: 0.75em;
+  margin-bottom: 10px;
+}
+
+.ScrollArrow:hover {
+  cursor: pointer;
+}
+
+.Arrow {
+  animation: jumpInfinite 1.5s infinite;
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: -9px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
