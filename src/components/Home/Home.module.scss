@@ -1,13 +1,16 @@
+@use "../../App.scss" as main;
+
 .Home {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
+  padding-left: main.$margin-content;
+  padding-right: main.$margin-content;
   background: linear-gradient(180deg, #fafafa 50%, #efefef 50%);
 }
 
 .Title {
-  margin-left: 50px;
   font-size: 1.5em;
 }
 
@@ -46,6 +49,11 @@
 
 .ScrollArrow:hover {
   cursor: pointer;
+}
+
+.ScrollArrow a {
+  color: black;
+  text-decoration: none;
 }
 
 .Arrow {
