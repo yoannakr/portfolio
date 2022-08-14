@@ -1,0 +1,63 @@
+@use "../../App.scss" as main;
+
+.About {
+  height: 100vh;
+  padding-left: main.$margin-content;
+  padding-right: main.$margin-content;
+  background-color: #fafafa;
+}
+
+.AboutWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 1.45em;
+  margin-left: 4em;
+  padding-top: 3em;
+}
+
+.ProfilePicture {
+  width: 30%;
+}
+
+.ProfilePicture img {
+  width: 100%;
+  margin-top: 1em;
+}
+
+.AboutDescription {
+  width: 70%;
+  margin-left: 1.5em;
+}
+
+.AboutDescription p {
+  line-height: 1.6;
+  margin-bottom: 1em;
+  color: main.$grey-text;
+}
+
+.AboutDescription .Title {
+  font-size: 1.75em;
+  margin-bottom: 0.5em;
+  color: main.$black-shade-color;
+  font-weight: 800;
+}
+
+.DownloadButton {
+  font-size: 0.5em;
+  text-transform: uppercase;
+  border-radius: 1.5em;
+  padding: 1em 2em;
+  border: 2px solid main.$grey-color;
+  color: main.$black-shade-color;
+  background-color: transparent;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.DownloadButton:hover {
+  background-color: main.$black-shade-color;
+  color: main.$background-white;
+  border: 2px solid main.$black-shade-color;
+}

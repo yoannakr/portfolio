@@ -7,7 +7,11 @@
   height: 100vh;
   padding-left: main.$margin-content;
   padding-right: main.$margin-content;
-  background: linear-gradient(180deg, #fafafa 50%, #efefef 50%);
+  background: linear-gradient(
+    180deg,
+    main.$background-white 50%,
+    main.$background-grey 50%
+  );
 }
 
 .Title {

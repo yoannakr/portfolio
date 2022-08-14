@@ -4,9 +4,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 2em;
-  margin-left: main.$margin-content;
-  margin-right: 5em;
+  padding-top: 2em;
+  padding-left: main.$margin-content;
+  background-color: main.$background-white;
+  padding-right: 5em;
 }
 
 .NavBar ul {
