@@ -1,6 +1,5 @@
 import React from "react";
 import "../../App.scss";
-import NavBar from "../NavBar/NavBar";
 import styles from "./About.module.scss";
 
 const About = () => {
@@ -8,7 +7,7 @@ const About = () => {
     <div id="about" className={styles.About}>
       <div className={styles.AboutWrapper}>
         <div className={styles.ProfilePicture}>
-          <img src="images/profile-picture.jpg" />
+          <img src="images/profile-picture.jpg" alt="profile picture yoanna" />
         </div>
         <div className={styles.AboutDescription}>
           <p className={styles.Title}>Hello, I am Yoanna Krasteva 🙂</p>
