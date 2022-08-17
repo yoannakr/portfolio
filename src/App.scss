@@ -3,6 +3,7 @@ $margin-content: 7em;
 $background-grey: #efefef;
 $background-white: #fafafa;
 $grey-color: #c2bfbc;
+$grey-color-shade-300: #8a8a8a;
 $black-shade-color: #3d3d3d;
 $grey-text: #595959;
 
@@ -11,4 +12,8 @@ $grey-text: #595959;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter";
+}
+
+html {
+  scroll-behavior: smooth;
 }
