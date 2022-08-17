@@ -5,9 +5,12 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 2em;
+  padding-bottom: 1em;
   padding-left: main.$margin-content;
   background-color: main.$background-white;
   padding-right: 5em;
+  position: sticky;
+  top: 0;
 }
 
 .NavBar ul {
