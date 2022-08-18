@@ -2,7 +2,7 @@ import React from "react";
 import "../../App.scss";
 import styles from "./NavBar.module.scss";
 import NavItem from "./NavItem/NavItem";
-import { NavItems } from "../../types/navigation";
+import { NavItems } from "../../constants/navigation";
 
 const NavBar = () => {
   return (
