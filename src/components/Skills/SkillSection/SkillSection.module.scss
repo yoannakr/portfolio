@@ -1,0 +1,26 @@
+@use "../../../App.scss" as main;
+
+.SkillsWrapper {
+  border-bottom: 1px dashed main.$grey-color-shade-300;
+  margin-bottom: 2em;
+}
+
+.Title {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.Items {
+  display: flex;
+  margin-bottom: 1.5em;
+  text-transform: uppercase;
+}
+
+.Items li:first-child {
+  margin-left: 1em;
+}
+
+.Items li {
+  margin-right: 2em;
+  color: main.$grey-text;
+}
